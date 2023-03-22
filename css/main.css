@@ -1,0 +1,74 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 90%;
+    height: 80px;
+    background-color: #2b2b2b;
+    color: white;
+    padding-left: 10%;
+    padding-top: 5px;
+}
+
+nav h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url("../assets/Mar-5@10.14.46.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.overlay{
+    width: 90%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-left: 10%;
+    padding-top: 450px;
+}
+
+header p{
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header h3{
+    font-size: 35px;
+    margin-bottom: -35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+header h1{
+    font-size: 55px;
+    margin-bottom: 0px;
+    font-family: 'Playfair Display', serif;
+}
+
+.round-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url("../assets/Mar-5@10.14.46.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-con{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.image-con img{
+    width: 50%;
+}
